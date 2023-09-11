@@ -80,22 +80,22 @@ namespace nfl
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            //if(e.KeyCode==Keys.Left)
-            //{
-            //    goLeft = true;
-            //}
-            //if (e.KeyCode == Keys.Right)
-            //{
-            //    goRight = true;
-            //}
-            //if(e.KeyCode == Keys.Up)
-            //{
-            //    goUp = true;    
-            //}
-            //if(e.KeyCode == Keys.Down)
-            //{
-            //    goDown = true;
-            //}
+            if (e.KeyCode == Keys.Left)
+            {
+                goLeft = true;
+            }
+            if (e.KeyCode == Keys.Right)
+            {
+                goRight = true;
+            }
+            if (e.KeyCode == Keys.Up)
+            {
+                goUp = true;
+            }
+            if (e.KeyCode == Keys.Down)
+            {
+                goDown = true;
+            }
 
         }
 
